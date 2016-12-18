@@ -19,28 +19,28 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "palmerhart@gmail.com"
   behance:
   bitbucket:
-  dribbble: "joeykirk"
-  facebook: "joeykirk"
+  dribbble: 
+  facebook: 
   flickr:
-  github: "madebymunsters/type-theme"
+  github: "https://github.com/palmerhart"
   google_plus:
-  instagram: "joeykirk"
-  linkedin:  # Full URL
+  instagram: 
+  linkedin:  "https://www.linkedin.com/in/palmer-hart-a8a19915"
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "joeykirk"
+  twitter: 
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-89144579-1"
   disqus_shortname:
   katex: true # Enable if using math markup
 
