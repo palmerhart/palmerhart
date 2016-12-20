@@ -21,7 +21,9 @@ short-description: BlocJams lets you listen to the best Jams!
 
 <h3>Solution</h3>
 <p>To create a dynamic player bar we needed to play, pause, and navigate between songs.  Here is an exmpale of how I wrote a function to find the next song in the Album...</p>
-```javascript
+
+
+{% highlight javascript %}
 var nextSong = function() {
     var getLastSongNumber = function(index) {
         return index ==0 ? currentAlbum.songs.length : index;
@@ -55,10 +57,11 @@ var nextSong = function() {
     $nextSongNumberCell.html(pauseButtonTemplate);
     $lastSongNumberCell.html(lastSongNumber);       
 };
-```
+{% endhighlight %}
 
 <p>Here is an example of some jQuery that was used in a function</p>
-```javascript
+
+{% highlight }
 var setCurrentAlbum = function(album) {
     currentAlbum = album;
     var $albumTitle = $('.album-view-title');
@@ -74,16 +77,16 @@ var setCurrentAlbum = function(album) {
     //#3
     $albumSongList.empty();
     // #4
-    for (var i=0; i <album.songs.length; i++) {
+    for (var i=0; i < album.songs.length; i++) {
         var $newRow = createSongRow(i + 1, album.songs[i].title, album.songs[i].duration);
         $albumSongList.append($newRow);
     }
 };
-```
+{% endhighlight %}
 
 <h3>Results</h3>
 <p>Here is a screenshot of the finished page with the most engagement, where users listen to their favorite music!</p>
-![Bloc-Jams Album View](/img/bloc-jams_album.png "Album Screen Shot")
+<img src="{{ site.baseurl }}/img/bloc-jams_album.png" />
 
 <h3>Conclusion</h3>
 <p>I was able to deliver a fun and lightweight application to listen to your favorite tunes by computer or mobile!  Jam on!</p>
