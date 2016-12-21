@@ -61,7 +61,7 @@ var nextSong = function() {
 
 <p>Here is an example of some jQuery that was used in a function</p>
 
-{% highlight }
+{% highlight javascript %}
 var setCurrentAlbum = function(album) {
     currentAlbum = album;
     var $albumTitle = $('.album-view-title');
